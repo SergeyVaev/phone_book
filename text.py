@@ -36,3 +36,6 @@ change_contact = 'Введите новые данные или оставьте
 def change_successful(name:str)->str:
     return 'Контакт {name} успешно изменен! '
 
+input_delete = 'Какой контакт будем удалять, введите ключевое слово ? '
+delete_contact = 'Выберете его id: '
+delete_successful = 'Контакт успешно удален'
